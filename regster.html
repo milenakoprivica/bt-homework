@@ -1,0 +1,95 @@
+<!DOCTYPE <!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Register</title>
+
+</head>
+
+<body>
+
+      <h1>Vazno!</h1>
+      <section>
+
+        <p>Pre unosa podataka, molim da se upoznate sa sledecim informacijama:
+
+        <ol>
+          <li>
+            <a href="https://itbootcamp.rs/prijava-razvoj-veb-stranica-php-word-press/#" target="_blank">Uslovma prijave
+              i pravilima</a>
+          </li>
+          <li>
+            <a href="https://itbootcamp.rs/proces-selekcije/" target="_blank">Procesom selekcije</a>
+          </li>
+          <li>
+            <a href="https://itbootcamp.rs/obaveze-polaznika/" target="_blank">Obavezama polaznika</a>
+          </li>
+        </ol>
+        </p>
+      </section>
+      
+      <h3> Podaci za registraciju</h3>
+
+<form action = "register.php" method="GET">
+      <div>
+        <label for="ime">Ime</label>
+      </div>
+      <div>
+        <input type="text" id="ime" name="ime" placeholder="Vase ime"> <br>
+      </div>
+
+      <div>
+        <label for="Prezime">Prezime</label>
+      </div>
+      <div>
+        <input type="text" id="Prezime" name="prezime" placeholder="Vase prezime"> <br>
+      </div>
+
+      <div>
+        <label for="Pol">Pol</label>
+      </div>
+      <input type="radio" name="zensko"  value="zensko">Zensko
+      <input type="radio" name="musko" value="musko">Musko
+      </div>
+
+      <div>
+        <label= for="email" name="email">Email</label>
+      </div>
+      <div>
+        <input type="text" id="email" name="email" placeholder="Vas email">
+      </div>
+
+      <div>
+        <label for="lozinka" name="lozinka"> Lozinka</label>
+      </div>
+      <div>
+        <input type="password" name="lozinka" id="lozinka" placeholder="Vasa lozinka" value="">
+      </div>
+
+      <div>
+        <label for="ponoviti-lozinku" name="ponoviti-lozinku">Ponoviti lozinku</label>
+      </div>
+      <div>
+        <input type="password" name="ponoviti-lozinku" id="ponoviti-lozinku"  placeholder="ponoviti-lozinku">
+      </div
+      >
+      <div>
+        <label for="Odabir kurseva" name="odabir-kurseva">Odabir kurseva</label>
+      </div>
+      <div>
+        <input type="checkbox" name="odabir-kurseva"value="php"> PHP
+        <input type="checkbox" name="odabir-kurseva" value="css"> CSS
+        <br>
+      </div>
+
+      <div>
+        <button type="submit">Sacuvaj </a></button>
+        <button type="reset">Ponisti</button>
+      </div>
+    
+  </form>
+</body>
+
+</html>
